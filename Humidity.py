@@ -5,10 +5,10 @@ import Adafruit_DHT
 from twilio.rest import Client
 import requests
 #gpio pin no. 4
-ACCOUNT_SID = 'AC29a985e0cccf5be9d83dbafca050b819'
-AUTH_TOKEN = '9720cc9c7416fe310d84f0e334d3b207'
-TWILIO_PHONE ='+13126266284'
-RECEIVER_PHONE = '+917259370404'
+ACCOUNT_SID = 'hidden'
+AUTH_TOKEN = 'hidden'
+TWILIO_PHONE ='hidden'
+RECEIVER_PHONE = 'hidden'
 client1 = Client(ACCOUNT_SID,AUTH_TOKEN)
 msgcounter=0
 temperature0=0
